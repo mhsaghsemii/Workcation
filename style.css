@@ -104,6 +104,7 @@ input:hover {
   grid-row: 1 / -1;
   display: none;
   background-color: rgba(45, 55, 72, 1);
+  /* position: fixed; */
 
   .filters {
     display: grid;
@@ -441,7 +442,6 @@ button:active
 
 .content {
   padding-top: 20px;
-  background-color: #ee53d1;
   display: grid;
   grid-template-columns: 1fr;
   gap: 15px;
@@ -461,8 +461,7 @@ button:active
     background-color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 3px 6px 0px #0000000d;
-
+    margin-left: 10px;
     box-shadow: 0px 8px 15px 0px #0000001a;
 
     a {
@@ -497,8 +496,8 @@ button:active
 }
 
 .main {
-  background-color: rgb(236, 229, 230);
   padding-left: 15px;
+  background-color: #E2E8F0;
 
   h3 {
     font-size: 19px;
